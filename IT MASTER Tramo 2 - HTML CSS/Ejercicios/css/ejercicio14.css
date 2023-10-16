@@ -1,0 +1,51 @@
+
+.img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    margin: 20px auto 20px auto;
+}
+
+.header h1{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.personaldata{
+    padding-left: 15px;
+}
+
+.personaldata p{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card{
+    margin: 0 20px 20px 20px;
+}
+
+@media(min-width:825px){
+    main{
+        width: 25%;
+    }
+    .cards{
+        width: 60%;
+        margin-top: 40px;
+    }
+    .img{
+        margin-top: 40px;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+

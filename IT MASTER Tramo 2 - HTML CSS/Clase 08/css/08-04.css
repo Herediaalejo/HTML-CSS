@@ -1,0 +1,36 @@
+section{
+    text-align: center;
+}
+
+#articulos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 440px;
+}
+
+#articulos article{
+    width: 300px;
+    height: 300px;
+    border: 1px solid silver;
+    padding: 20px;
+    box-sizing: border-box;
+    /* 
+        Ocultamos lo que sobresale de la caja
+     */
+    overflow: hidden;
+    transition: 1s;
+}
+
+#articulos article img{
+    width: 80%;
+}
+
+#articulos article:hover{
+    height: 420px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: azure;
+}

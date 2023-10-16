@@ -1,0 +1,21 @@
+/* En CSS
+El título principal y el subtítulo deben tener un color de fondo negro y el color del texto debe ser blanco. Ambos deben tener una alineación centrada.
+Los párrafos deben ser de color verde (excepto el último)
+El último párrafo debe tener azul.
+Recomendaciones generales para resolver el ejercicio: 
+Utilizar el editor y navegador preferido (en clase trabajamos con Visual Studio Code y Chrome, pero se puede utilizar el que prefieras).
+Repasar lo visto sobre las jerarquías de títulos para html (h1, h2, etc.)
+Repasar el uso de id y clase para aplicar a los párrafos en el archivo HTML, para luego trabajar los estilos en el CSS. */
+h1, h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: green;
+}
+
+#blue_paragraph{
+    color: blue;
+}

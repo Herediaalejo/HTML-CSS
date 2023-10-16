@@ -1,0 +1,15 @@
+Anatomía de etiquetas HTML
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+Anatomía de una regla CSS
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics#anatom%C3%ADa_de_una_regla_css
+
+Selectores de CSS
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_selectors
+
+Unidades de medidas
+https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units
+
+CSS Grids
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://gridbyexample.com/

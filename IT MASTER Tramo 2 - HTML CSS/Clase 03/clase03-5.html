@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        #caja{
+            /* 
+                Ancho de la caja en %
+            */
+            width: 50%;
+            /* 
+                margin es el margen
+                De esta manera 0 es para arriba y abajo
+                y 25% es para los laterales
+            */
+            margin: 0 25%;
+            /* 
+                Centramos texto y en este contexto también la imagen
+            */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        div nos permite agrupar dentro de una "caja" elementos de html
+     -->    
+    <div id="caja">
+        <h1>La página de Dami</h1>
+            <!-- 
+                <img> no requiere etiqueta de cierre obligatorio en HTML no estricto
+                Etiqueta imagen para ubicar una imagen en el html
+                src la ruta del archivo de imagen
+                alt es el texto alternativo (si la imagen no se puede ver o para lectores de pantalla, por ejemplo)
+                title se pone para describir la imagen (si se posiciona el mouse encima se puede ver)
+            -->    
+        <img src="img/damicursos.jpg" alt="Texto alternativo imagen" title="Damián De Luca">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, reprehenderit excepturi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eaque tempora maiores pariatur?</p>
+        <img src="img/200x160.jpg" alt="Imagen de 200">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores sunt similique dolorum aliquam officiis!</p>
+        <img src="img/300x300.jpg" alt="300x300 imagen">
+    </div>    
+
+</body>
+</html>

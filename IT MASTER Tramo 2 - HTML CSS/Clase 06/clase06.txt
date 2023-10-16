@@ -1,0 +1,19 @@
+Generador de gradients
+https://www.colorzilla.com/gradient-editor/
+
+Sombras
+Sombra a la caja
+https://developer.mozilla.org/es/docs/Web/CSS/box-shadow
+
+Sombra al texto
+https://developer.mozilla.org/es/docs/Web/CSS/text-shadow
+
+
+Posiciones en CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+Iconos en tipografías
+https://fontawesome.com/
+
+CDN
+https://cdnjs.com/libraries/font-awesome

@@ -1,0 +1,14 @@
+#caja{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#caja img{
+    width: 100%;
+    /* 
+        Establecemos un máximo y un mínimo para el tamaño de la imagen
+    */
+    max-width: 500px;
+    min-width: 200px;
+}

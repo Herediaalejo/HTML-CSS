@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 9 - Ejemplo 2</title>
+    <link rel="stylesheet" href="css/09-02.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form>
+            <h1>Ingresar al sitio</h1>
+            <!-- 
+                Placeholder se usa como para poner el texto en "gris" dentro
+                required es para que el campo sea obligatorio (se valida en el submit)
+            -->
+            <input type="text" placeholder="Usuario" title="Nombre" required>
+            <!-- 
+                Campo de contraseña con input type password
+            -->
+            <input type="password" placeholder="Contraseña" title="Contraseña" required>
+            <!-- 
+                Botón que realiza un "submit" para enviar la información (pero primero valida)
+            -->
+            <input type="submit" value="Ingresar">
+
+            <!-- 
+                Reset permite limpiar el formulario
+                <input type="Reset" value="Limpiar">
+             -->
+            
+        </form>
+    </div>
+</body>
+</html>

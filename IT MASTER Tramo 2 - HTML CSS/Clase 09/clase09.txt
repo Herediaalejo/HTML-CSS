@@ -1,0 +1,24 @@
+Formularios
+https://developer.mozilla.org/es/docs/Learn/Forms/How_to_structure_a_web_form
+
+Input y sus types
+https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+https://damiandeluca.com.ar/formularios-en-html5-los-input
+
+Formularios en HTML5
+https://developer.mozilla.org/es/docs/Learn/Forms
+
+Placeholder
+https://damiandeluca.com.ar/uso-del-atributo-placeholder-en-formularios-html5
+
+
+Textarea
+https://developer.mozilla.org/es/docs/Web/HTML/Element/textarea
+
+Select
+https://developer.mozilla.org/es/docs/Web/HTML/Element/select
+
+Práctica del 1-09-2023
+Ejercicio a realizar: https://docs.google.com/document/d/1ghxMZAz9j7HIo0KoBJJII6hrQ9L3LjYclHu2LHtXspo/edit
+Código del profesor (final): https://github.com/testdami555/practica01092023/
+Ejemplo armado y subido por el profesor (final): https://testdami555.github.io/practica01092023/

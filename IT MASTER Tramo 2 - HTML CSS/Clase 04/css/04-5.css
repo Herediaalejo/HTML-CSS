@@ -1,0 +1,18 @@
+#contenedor{
+    /* 
+        Establecemos el contenedor como flex
+        De esta manera las cajas hijas se ubica una al lado de la otra
+    */    
+    display: flex;     
+    /* 
+        Como se distribuyen las cajas "hijas" de manera horizontal
+    */
+    justify-content: space-evenly;    
+}
+
+#contenedor > div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+}

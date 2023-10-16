@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-size: 2rem;
+}
+
+nav{
+    background-color: navy;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav ul li{
+    width: 50px;
+}
+i{
+    color: white;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}

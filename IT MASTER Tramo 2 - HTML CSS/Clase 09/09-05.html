@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 9 - Ejemplo 5</title>
+    <link rel="stylesheet" href="css/09-05.css">
+</head>
+<body>
+    <form>
+        <!-- 
+            Fielset genera un área dentro del formulario.
+            Tiene un recuadro
+            Legend es el texto visible (podría ser el título) en ese recuadro (arriba)
+         -->
+        <fieldset>
+            <legend>Elige la opción correcta</legend>
+            <!-- 
+                input type radio nos muestra un "círculo" para elegir una sola opción.
+                Las ocpiones agrugadas deben tener el mismo name
+                El value es el valor que se envía como respuesta
+                <br> genera un salto de línea
+             -->
+            <input type="radio" name="pregunta1" value="1"><label>h1 es un título</label><br>
+            <input type="radio" name="pregunta1" value="2"><label>h1 es un párrafo</label><br>
+            <input type="radio" name="pregunta1" value="3"><label>h1 es una imagen</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Elige la/s opcion/es correcta/s</legend>
+            <input type="checkbox" name="pregunta2" value="1"><label>CSS es asombroso</label><br>
+            <input type="checkbox" name="pregunta2" value="2"><label>CSS es genial</label><br>
+            <input type="checkbox" name="pregunta2" value="3"><label>CSS se usa para crear estilos</label>
+        </fieldset>
+        <!-- 
+            hr es una línea horizontal 
+         -->
+        <hr>
+        <input type="button" value="Responder">
+    </form>
+</body>
+</html>

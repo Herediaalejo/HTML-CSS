@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- 
+        Juego de caracteres. En este caso para que se visualicen correctamente acentos y otros caractes en español
+     -->
+    <meta charset="UTF-8">
+    <!-- 
+        Ajuste de viewport para "responsive"
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 11 - Ejemplo 1</title>
+    <style>
+        /* 
+            Comentario CSS
+        */
+        body{
+            font-size: 2rem;
+        }
+        #contenedor{
+            margin: 10px 10%;
+            width: 80%;
+            text-align: center;
+            background-color: lightpink;
+            border: 10px solid red;
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: 2rem;
+        }
+        #titulo{
+            color: darkblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            /* 
+                Inclinar la letra
+            */
+            font-style: italic;
+            /* 
+                Todo el texto a mayúsculas
+            */
+            text-transform: uppercase;
+            font-weight: 100;
+
+            /* 
+                Para que top, left, right y bottom "funcionen"
+                requieren una position distinta a la predeterminada
+                Por ejemplo: relative, absolute, ...
+             */
+            position: relative;
+            top: -40px;
+            left: 20px;
+        }
+
+        #subtitulo{
+            color: darkred;
+        }
+
+        .titular{
+            background-color: beige;
+        }
+        *{
+            color: darkgreen;
+        }
+        .destacado{
+            background-color: gold;
+            font-weight: bold;
+        }
+        /* 
+            Selector de hijo directo
+        */
+        #contenedor > p {
+            color: chocolate;
+        }
+        #caja{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <!-- 
+            Ajustar indentación:
+            Seleccionar todo y presionar SHIFT + ALT + F
+        -->
+        <h1 id="titulo" class="titular"><span class="destacado">E</span>l título del Mundo</h1>
+        <h2 id="subtitulo" class="titular">El subtítulo del Mundo</h2>
+        <p><em>Lorem ipsum</em>, dolor sit <i>amet</i> consectetur adipisicing elit. Ab, sed.</p>
+        <p>Lorem <strong>ipsum</strong> dolor, sit <b>amet</b> consectetur adipisicing elit. Facere eaque labore velit?</p>
+        <div id="caja">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, amet? Quis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur ipsum vel!</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi iusto repellat quos esse saepe magnam optio perspiciatis natus soluta?</p>
+    </div>
+</body>
+</html>

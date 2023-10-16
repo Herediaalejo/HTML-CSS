@@ -1,0 +1,128 @@
+body{
+    background-color: silver;
+    /* 
+        Multiplicamos x 2 el tamaño estándar de las fuentes
+    */
+    font-size: 2rem;
+    margin: 0;
+}
+
+#contenedor{
+    width: 100%;
+}
+
+/* 
+    Flotamos todos los elmentos que son hijos directo del elemento contenedor
+*/
+#contenedor > *{
+    float: left;
+    text-align: center;
+    /* 
+        Para que no se caigan las cajas si pongo borde o padding
+    */
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;    
+}
+nav{
+    width: 100%;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: silver;
+    /* 
+        Agregamos padding y display block para que se expanda el <a> 
+    */
+    padding:10px;
+    /* 
+        Transformamos en a que es un elemento inline en block
+    */
+    display: block;
+    background-color: navy;
+    border-radius: 20px;
+
+}
+
+nav ul li a:hover{
+    background-color: rgb(97, 65, 4);
+}
+
+/* 
+
+Para cambiar el color a un link visitado
+
+ol li a:visited{
+    color:red;
+}
+
+*/
+
+
+main{
+    width: 70%;
+    border-right: 1px solid rgb(168, 167, 167);
+}
+
+#articulos{
+    display: flex;
+    /* 
+        De manera predeterminada los elementos dentro una caja que está flex no caen
+        Con flex-wrap: wrap permitimos que "caigan"
+    */
+    flex-wrap: wrap;
+}
+
+#articulos > article{
+    /* 
+        Ponemos un ancho de 50% para que los articulos queden de a 2
+    */
+    width: 46%;
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+#publicidad img{
+    width: 40%;
+    /*     
+        Establecemos un ancho máximo y mínimo para la imagen
+    */
+    max-width: 300px;
+    min-width: 150px;
+    margin: 0 auto;
+}
+
+aside{
+    width: 30%;
+}
+
+aside ol{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    list-style: upper-roman;
+}
+
+footer{
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 30px 0;
+}

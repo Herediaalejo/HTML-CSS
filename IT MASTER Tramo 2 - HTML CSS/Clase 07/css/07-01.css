@@ -1,0 +1,22 @@
+/* 
+    Reglas generales
+    En este caso las veremos en "móviles"
+*/
+
+body{
+    background-color: aliceblue;
+    /* 
+        Multiplicamos por 2 el font-size de todos los textos
+    */
+    font-size: 1.2rem;
+}
+
+/* 
+    En resoluciones de 700px y superiores en ancho cambia con estas reglas
+*/
+@media (min-width: 700px){
+   body{
+    background-color: pink;
+    font-size: 2rem;
+   }
+}

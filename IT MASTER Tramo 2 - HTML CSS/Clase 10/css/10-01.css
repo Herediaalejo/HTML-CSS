@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@400;700&display=swap');
+#contenedor{
+    text-align: center;
+}
+
+#contenedor h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#productos{
+    display: flex;
+    justify-content: center;    
+}
+
+.producto{
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.producto h2{
+    text-align: center;
+}
+
+.producto img{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.flex > *{
+    margin: 0 8px;
+}
+
+.btn{
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* 
+    Hablamos a los elementos que tienen las clases btn y agregar
+*/
+.btn.agregar{
+    background-color: rgb(33, 6, 101);
+    color: white;
+}
+
+/* 
+    Hablamos a los elementos que tienen las clases btn y quitar
+*/
+.btn.quitar{
+    background-color: rgb(113, 7, 7);
+    color: white;
+}

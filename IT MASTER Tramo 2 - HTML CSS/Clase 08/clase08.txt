@@ -1,0 +1,27 @@
+Transformaciones
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+
+Perspectiva
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective
+
+Transiciones
+https://damiandeluca.com.ar/transiciones-con-css
+
+Cursor
+https://developer.mozilla.org/es/docs/Web/CSS/cursor
+
+Overflow
+https://developer.mozilla.org/es/docs/Web/CSS/overflow
+https://developer.mozilla.org/es/docs/Web/CSS/overflow-y
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+
+Opacidad
+https://developer.mozilla.org/es/docs/Web/CSS/opacity
+
+Animaciones
+https://damiandeluca.com.ar/animaciones-con-css3
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+Audio y video HTML5
+https://developer.mozilla.org/es/docs/Web/HTML/Element/audio
+https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content

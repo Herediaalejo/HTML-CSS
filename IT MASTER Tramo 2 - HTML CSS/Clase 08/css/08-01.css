@@ -1,0 +1,25 @@
+#caja{
+    width: 700px;
+    height: 150px;
+    background-color: navy;
+    color: white;
+    display: flex; 
+    /* 
+        Alineación horizontal
+    */
+    justify-content: center;
+    /* 
+        Alineación vertical
+    */
+    align-items: center;
+    /* 
+        Agregamos una transformación de rotación (rotate)
+        Agregamos una transformación de translación (X,Y)
+        Agregamos skew para inclinar la caja
+    */
+    transform: rotate(-10deg) translate(10px,70px) skewX(10deg);
+    /* 
+        Punto de origen de la transformación. 
+    */
+    transform-origin: center center;
+}

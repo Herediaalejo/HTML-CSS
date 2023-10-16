@@ -1,0 +1,29 @@
+/* 
+    Creamos un menú horizontal
+*/
+#menu{
+    display: flex;
+    /* 
+        Quitamos los puntitos delante de los li
+    */    
+    list-style: none;    
+    justify-content: space-around;
+    width: 70%;
+    margin:0 auto;    
+}
+
+#menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    /* 
+        5px arriba y abajo
+        20px a los laterales
+    */
+    padding: 5px 20px;      
+}
+
+#menu li a:hover{
+    background-color: darkorange;
+}

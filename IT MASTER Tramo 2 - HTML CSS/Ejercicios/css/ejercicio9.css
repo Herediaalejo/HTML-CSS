@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: navy;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.publicidad{
+    width: 100%;
+    background-color: purple;
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+}
+
+.publicidad p a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    height: 100%;
+    transition: 1s;
+}
+
+.publicidad p a:hover{
+    color: orange;
+}
+
+main > h1{
+    text-align: center;
+}
+
+.contenedor > article{
+    width: 45%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor article h2{
+    text-align: center;
+}
+
+@media(max-width: 1024px){
+    .contenedor{
+        flex-wrap: wrap;
+    }
+    .contenedor > article{
+        width: 80%;
+    }
+
+    .publicidad{
+        display: none;
+    }
+
+}

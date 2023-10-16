@@ -1,0 +1,7 @@
+Google fonts
+https://fonts.google.com/
+https://damiandeluca.com.ar/como-usar-google-fonts-en-nuestro-sitio-web
+
+Bootstrap
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.3/getting-started/download/

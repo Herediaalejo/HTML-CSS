@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background: rgb(226,223,217);
+    background: linear-gradient(176deg, rgba(226,223,217,1) 0%, rgba(170,195,245,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 2.8rem;
+    margin-bottom: 19px;
+}
+form{
+    padding: 30px;
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+form > *{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+input {
+    margin-bottom: 14px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 5px silver;
+}
+
+input:focus{
+    /* 
+        Quitamos la línea exterior cuando toma foco el elemento
+    */
+    outline: 0;
+}
+
+input[type="submit"]{
+    transition: 1s;
+    background-color:cornflowerblue;
+    color: white;
+}
+
+input[type="submit"]:hover{    
+    background-color:rgb(37, 107, 237);
+    color: rgb(222, 222, 222);
+}

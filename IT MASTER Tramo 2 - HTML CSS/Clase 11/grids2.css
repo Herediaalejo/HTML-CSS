@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+  }
+
+  .sidebar {
+          grid-area: sidebar;
+      }
+
+      .sidebar2 {
+          grid-area: sidebar2;
+      }
+
+      .content {
+          grid-area: content;
+      }
+
+      .header {
+          grid-area: header;
+      }
+
+      .footer {
+          grid-area: footer;
+      }
+
+      .wrapper {
+          background-color: #fff;
+      }
+
+    .wrapper {
+      display: grid;
+      grid-gap: 0.5em;		    
+              grid-template-columns: 30% auto 20%;
+              grid-template-areas:
+             "header  header  header"
+              "sidebar content sidebar2"
+              "footer  footer  footer";
+              max-width: 80%;		
+              text-align: center;   
+              margin:0 auto; 
+    }
+
+  .box {
+    background-color: #2d0000;
+    color: lightblue;
+    min-height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+
+  .header,
+  .footer {
+    background-color: #999;
+     min-height: 50px;
+  }

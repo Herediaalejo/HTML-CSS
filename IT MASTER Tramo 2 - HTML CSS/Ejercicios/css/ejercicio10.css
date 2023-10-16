@@ -1,0 +1,40 @@
+@keyframes circular{
+    0% {
+        border-radius: 0;
+        font-size: 1rem;
+        background-color: blue;
+        color:white;
+    }
+    50% {
+        border-radius: 50%;
+        font-size: 4rem;
+        background-color: lightgreen;
+        color:black;
+    }
+    100%{
+        border-radius: 0;
+        font-size: 1rem;
+        background-color: blue;
+        color: white;
+    }
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: circular 4s infinite;
+}

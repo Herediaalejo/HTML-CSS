@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+#caja{
+    width: 700px;
+    height: 700px;
+    background-color: darkred;
+    transition: 1s;
+}
+
+#caja:hover{
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 0px 0px 20px rgba(10, 10, 10, 0.9);
+}

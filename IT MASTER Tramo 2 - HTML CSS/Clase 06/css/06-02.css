@@ -1,0 +1,44 @@
+body{
+    font-size: 2rem;
+    margin: 0;
+}
+#contenedor{
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 180px;
+    /* 
+        Fijamos la cabecera en el tope de la página
+    */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;    
+}
+
+main{
+    /* 
+        Para que el texto no quede por detrás del header agregar un margin-top de 20px más que la altura del header    
+    */
+    margin-top: 200px;
+}
+
+aside{
+    position: fixed;
+    top: 200px;
+    right: 10px;     
+}
+
+aside ul{
+    list-style: none;
+    background-color: lemonchiffon;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}

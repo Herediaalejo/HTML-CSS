@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+
+#contenedor{
+    width: 700px;
+    /* 
+        centramos
+    */
+    margin: 0 auto;
+    text-align: center;
+    /* 
+        border:
+        grosor de la línea
+        tipo de línea
+        color
+    
+    */    
+    border: 4px solid brown;
+    /* 
+        Bordes redondeados
+    */
+    border-radius: 10px;
+    /* 
+        La distancia entre el contenido y el borde
+    */
+    padding: 20px;
+    /* 
+        Recomendable ponerlo cuando se usa padding y/o border
+        Permite que esos valores no cuente "para afuera" como el margin.
+    */
+    box-sizing: border-box;     
+}

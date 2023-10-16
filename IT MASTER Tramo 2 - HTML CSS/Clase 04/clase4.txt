@@ -1,0 +1,30 @@
+Unidades de medida para CSS
+https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units
+
+Font
+https://developer.mozilla.org/es/docs/Web/CSS/font
+
+Font family
+https://developer.mozilla.org/es/docs/Web/CSS/font-family
+
+Float
+https://developer.mozilla.org/es/docs/Web/CSS/float
+
+Bordes
+https://developer.mozilla.org/es/docs/Web/CSS/border
+
+Redondear bordes de la caja
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+Box-sizing
+https://developer.mozilla.org/es/docs/Web/CSS/box-sizing
+
+Imágenes online (para simular y pruebas)
+https://picsum.photos/
+
+Intro a Flexbox
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Juego con Flexbox (para practicar)
+https://flexboxfroggy.com/#es

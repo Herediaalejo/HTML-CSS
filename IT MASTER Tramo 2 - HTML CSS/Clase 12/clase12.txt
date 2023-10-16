@@ -1,0 +1,35 @@
+CLI comandos básicos
+cd me permite moverme entre carpetas
+clear limpia la terminal
+
+Git
+https://git-scm.com/
+https://damiandeluca.com.ar/que-es-git
+https://damiandeluca.com.ar/git-una-herramienta-imprescindible-para-el-desarrollo-web
+
+Se puede establecer un .gitignore para indicar lo que no se sincronizará del proyecto (archivos o carpetas)
+
+GitHub
+https://github.com/
+https://damiandeluca.com.ar/github-que-es-y-como-comenzar-a-usarlo
+
+GitHub Pages políticas de uso (no es para uso comercial)
+https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+
+
+MD (Markdown)
+La descripción del proyecto y/o instrucciones
+https://es.wikipedia.org/wiki/Markdown
+Se recomienda agregar README.md en los proyectos
+
+
+Vercel
+https://vercel.com/
+
+Vercel - Políticas de uso (el plan gratuito no es para uso comercial)
+https://vercel.com/docs/limits/fair-use-policy
+
+
+
+Mi GitHub
+https://github.com/testdami555/

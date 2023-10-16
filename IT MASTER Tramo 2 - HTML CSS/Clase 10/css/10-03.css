@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.card{
+    width: 22rem !important;
+}
+.card img{
+    width: 80%;
+    margin: 10px auto;
+}
+#barrabtn{
+    margin: 20px 0;    
+}

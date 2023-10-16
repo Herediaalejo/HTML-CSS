@@ -1,0 +1,15 @@
+Damián De Luca
+https://damiandeluca.com.ar/
+
+Documentación
+https://developer.mozilla.org/es/
+
+Editor de código
+Pueden usar el editor que prefieran
+https://code.visualstudio.com/
+
+Versión web: https://vscode.dev/
+
+
+Anatomía de etiquetas HTML
+https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started

@@ -1,0 +1,29 @@
+#contenedor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#contenedor form > *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    text-align: center;
+}
+input,textarea{
+    margin-bottom: 20px;
+}
+textarea{
+    /* 
+        Deshabilitamos que el usuario pueda cambiar el tamaño del textarea
+    */
+    resize: none;
+    height: 24px;
+    transition: 2s;
+}
+
+textarea:focus{
+    height: 200px;
+}

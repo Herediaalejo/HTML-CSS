@@ -1,0 +1,44 @@
+body{
+    /* 
+        Configuramos el margin del body en 0 para todos sus lados
+    */
+    margin: 0;
+}
+
+#contenedor{
+    width: 50%;
+    margin: 0 25%
+}
+
+#caja1{
+    /* 
+        Ancho
+    */
+    width: 100%;
+    /* 
+        Altura
+    */
+    height: 200px;
+    background-color: red;
+}
+
+#caja2{
+    /* 
+        En este contexto, la caja 2 se verá debajo de la caja1
+    */    
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+#caja3{
+    /* 
+        Ancho
+    */
+    width: 100%;
+    /* 
+        Altura
+    */
+    height: 500px;
+    background-color: brown;
+}

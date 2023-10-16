@@ -1,0 +1,15 @@
+.blackbox{
+    background-color: black;
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    justify-content: space-evenly;
+}

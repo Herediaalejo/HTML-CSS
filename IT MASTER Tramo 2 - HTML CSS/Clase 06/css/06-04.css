@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+#contenedor{
+    width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+#config{
+    position: fixed;
+    top: 30px;
+    right: 15px;
+}
+
+main{
+    margin-top: 70px;
+    padding: 0 10%;
+}
+
+main h2{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header i,nav i{
+    /* 
+        Cambiar el tamaño de los iconos
+    */
+    font-size: 1.2rem;
+}

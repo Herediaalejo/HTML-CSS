@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    /* 
+      Establecemos grid al padre
+    */
+    display: grid;
+    /* 
+      Columnas y cuanto ocupan
+    */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px 1%;
+    background-color: #fff;   
+    width: 80%;
+    margin: 0 10%;
+  }
+  
+  .box {
+    background-color: #020d43;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }

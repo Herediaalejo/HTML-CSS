@@ -1,0 +1,18 @@
+Estructura semántica (cajas):
+<header> = Cabecera
+<nav> = principal barra de navegación
+<main> = el bloque principal de contenido
+<section> = sección de la página
+<article> = artículos (tienen significado por sí mismos)
+<aside> = contenido complementario
+<footer> = el pie de página
+
+<small> = texto al pie de página
+<menu> = Simular a un ul: https://developer.mozilla.org/es/docs/Web/HTML/Element/menu
+
+Semántica HTML5: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+Lectura recomendada de semántica: http://html5doctor.com/lets-talk-about-semantics/
+
+Flex
+https://damiandeluca.com.ar/las-ventajas-de-css-flexbox-cuando-y-por-que-usarlo

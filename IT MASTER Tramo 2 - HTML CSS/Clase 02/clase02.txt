@@ -1,0 +1,13 @@
+MDN Play
+https://developer.mozilla.org/es/play
+
+HTML Living standar
+https://html.spec.whatwg.org/multipage/
+
+CSS
+https://developer.mozilla.org/es/docs/Learn/CSS
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics
+https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/How_CSS_is_structured
+
+Colores
+https://damiandeluca.com.ar/colores-en-css

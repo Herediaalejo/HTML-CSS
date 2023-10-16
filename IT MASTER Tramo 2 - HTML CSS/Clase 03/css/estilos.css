@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+}
+
+#contenedor{
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+#img500{
+    /* 
+        Esta imagen toma el 100% de su espacio disponible a lo ancho
+    */
+    width: 100%;
+}

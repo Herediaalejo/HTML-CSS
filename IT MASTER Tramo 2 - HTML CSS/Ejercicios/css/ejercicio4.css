@@ -1,0 +1,37 @@
+/*  Crear un menú horizontal con enlaces a los siguientes sitios externos:
+
+Google (https://www.google.com/)
+Bing (https://www.bing.com/)
+Linkedin (https://www.linkedin.com/)
+Wikipedia (https://es.wikipedia.org/)
+MDN (https://developer.mozilla.org/es/)
+Usar HTML y CSS.
+
+En los enlaces cambiar el color, color de fondo, tipografía y tamaño de texto (todos a tu elección).
+
+Para este ejercicio se recomienda practicar la técnica de Flexbox.*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(77, 22, 255);
+    background-color: rgb(111, 193, 244);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul{
+    background-color: black;
+    padding: 15px;
+}

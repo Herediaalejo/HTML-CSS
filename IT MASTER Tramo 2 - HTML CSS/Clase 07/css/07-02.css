@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-size: 1.5rem;
+}
+#contenedor{
+    width: 70%;
+    margin: 0 auto;
+}
+#contenedor > *{
+    float: left;
+}
+header{ 
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav{
+    width: 100%;    
+}
+
+nav ul {
+    padding: 0;
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+footer{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+/* 
+    Desde un ancho de 1200px de ancho y menores
+*/
+
+@media (max-width: 1200px){
+    /* 
+        Solo cambiamos las reglas que necesitamos cambiar a partir de esta resolución    
+    */
+    body{
+        font-size: 1.2rem;
+    }
+    #contenedor{
+        width: 100%;
+    }
+}
+
+/* 
+    Desde un ancho de 800px de ancho y menores
+*/
+
+@media (max-width: 800px){
+    main{
+        width: 100%;
+    }
+    aside{
+        /* 
+            Si quisieramos que no sea visible el aside podríamos poner display:none
+        */
+        width: 100%;
+        text-align: center;
+    }
+    aside ul{
+        list-style: none;
+    }
+
+}
+
+@media (max-width: 400px){
+    header{
+        border-bottom: 1px solid white;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+        /* 
+            Cambiamos el ul de display flex a block y queda todo en una columna
+        */
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    nav ul li{
+        background-color: black;
+        border-bottom: 1px solid silver;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        /* 
+            Para que el link ocupe todo el espacio del li
+        */
+        display: block;
+        /*         
+            Agrandamos la altura del renglón para que sea más alta la zona de clic
+        */
+        line-height: 170%;
+    }
+}

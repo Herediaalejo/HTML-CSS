@@ -1,0 +1,43 @@
+h1,h2,h3{
+    color: brown;
+    /* 
+        Elegimos una tipografía para los títulos, dentro de las "safe fonts". Las fuentes que comunmente están en el sistema y sus posibles reemplazos
+    */     
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* 
+        Separación entre letras
+    */
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+   /* 
+        Espesor de la fuente de 100 a 900 o bold
+    */     
+    font-weight:bold;
+    /* 
+        Ajustamos el alto de la línea
+    */
+    line-height: 140%;
+    /* 
+        Ajustamos la separación de los párrafos con margin: 20px arriba y abajo y 0 a los costados
+    */
+    margin: 50px 0;
+    /* 
+        Separación entre palabras
+    */
+    word-spacing: 10px;
+}

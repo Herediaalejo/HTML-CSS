@@ -1,0 +1,49 @@
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+form > *{
+    /* 
+        Pasamos los elementos interiores del form a bloque
+    */
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    /* 
+        Nos permite corregir el ancho de los input para que queden igual (en este caso)
+    */
+    box-sizing: border-box;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid silver;
+}
+
+input[type="text"]{
+    transition: 2s;
+}
+
+/* 
+    Le hablamos al input text cuando toma el foco
+*/
+
+input[type="text"]:focus{
+    width: 400px;
+    background-color: azure;
+}
+
+input[type="button"]{
+    transition: 0.3s;
+}
+
+/* 
+    Cuando el mouse pasa por encima del botón
+*/
+input[type="button"]:hover{
+    transform: scale(0.95);
+}
