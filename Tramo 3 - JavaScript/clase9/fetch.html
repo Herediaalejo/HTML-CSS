@@ -1,0 +1,13 @@
+<script>
+    // Nos conectamos a una URL de una Rest API y solicitamos un id de post que no existe
+    fetch('https://jsonplaceholder.typicode.com/posts/10000')
+        .then(response => {
+            // En este caso el ok da false
+            console.log(response.ok)
+            // El status da 404 (no encontrado)
+            console.log(response.status)
+            // Hacemos el return porque abrimos llaves en el arrow
+            return response.json()
+        })
+        .then(json => console.log(json))
+</script>

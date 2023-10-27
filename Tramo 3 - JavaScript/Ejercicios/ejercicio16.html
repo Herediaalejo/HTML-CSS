@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Dado un array de JSON de 8 productos, mostrar en una lista los que tengan un precio entre 1000 y 4000 (inclusive). Usar foreach y filter.
+
+Ejemplo del array:
+
+const productos = [
+    {"producto":"Producto 1","precio": 500},
+    {"producto":"Producto 2","precio": 1000},
+    {"producto":"Producto 3","precio": 4000},
+    {"producto":"Producto 4","precio": 400},
+    {"producto":"Producto 5","precio": 4100},
+    {"producto":"Producto 6","precio": 1020},
+    {"producto":"Producto 7","precio": 8920},
+    {"producto":"Producto 8","precio": 3110},
+] -->
+<ul id="contenedor">
+    <h1>Productos:</h1>
+</ul>
+<script>
+    const productos = [
+    {"producto":"Producto 1","precio": 500},
+    {"producto":"Producto 2","precio": 1000},
+    {"producto":"Producto 3","precio": 4000},
+    {"producto":"Producto 4","precio": 400},
+    {"producto":"Producto 5","precio": 4100},
+    {"producto":"Producto 6","precio": 1020},
+    {"producto":"Producto 7","precio": 8920},
+    {"producto":"Producto 8","precio": 3110},
+] 
+
+    productos.filter(producto=>producto.precio>=1000 && producto.precio <= 4000).forEach(producto => {
+        document.getElementById("contenedor").insertAdjacentHTML("beforeend", `
+        <li>Nombre: ${producto.producto}</li>
+        <li>Precio: ${producto.precio}</li>
+        <br>
+        `)
+    })
+
+</script>
+    
+</body>
+</html>

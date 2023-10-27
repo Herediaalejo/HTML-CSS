@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="search" id="busqueda">
+    <p id="resultado"></p>
+
+    <script>
+
+        // Escuchamos al elemento busqueda (el campo search). keyup es el evento que escuchamos. Después viene una función anónima, en este caso un arrow function y luego lo que hace la función
+        document.getElementById("busqueda").addEventListener("keyup", ()=> document.getElementById("resultado").innerHTML = document.getElementById("busqueda").value );        
+    </script>
+</body>
+</html>

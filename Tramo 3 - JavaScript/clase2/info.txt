@@ -1,0 +1,15 @@
+Mayúsculas y minúsculas
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+
+Expresiones y operadores
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+Resto
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Remainder
+
+Bucles en JavaScript
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration
+
+Sort
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort

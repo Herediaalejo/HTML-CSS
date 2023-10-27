@@ -1,0 +1,17 @@
+<script>
+    const nombres = ["Dami","Ale","Nico","Eva","Ana"];
+
+    // En este caso nombreMayusculas es un nuevo array con los nombres del array original, pero pasados todos a mayúsculas
+    const nombreMayusculas =  nombres.map((nombre) => nombre.toUpperCase());
+
+    console.log(nombres)
+    console.log(nombreMayusculas)
+
+    /*
+    Equivalente
+    const nombreMayusculas =[]
+    for(let nombre of nombres){
+        nombreMayusculas.push(nombre.toUpperCase())
+    }
+    */
+</script>

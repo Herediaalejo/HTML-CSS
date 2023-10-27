@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de datos Socio</title>
+    <style>
+        #resultado strong{
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .exito{
+            background-color: darkgreen;
+            
+        }
+
+        .error{
+            background-color: red;        
+        }
+    </style>
+    <!-- 
+        Incorporamos FontAwesome al proyecto
+     -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <form>
+        <label>Indica el número de socio</label>
+        <input type="number" id="nsocio">
+        <input type="button" value="Validar" onclick="validar()">
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="formulario5.js"></script>
+
+</body>
+</html>

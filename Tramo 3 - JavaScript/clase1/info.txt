@@ -1,0 +1,27 @@
+Damián De Luca
+https://damiandeluca.com.ar/
+
+Línea de tiempo de lenguajes de programación
+https://es.wikipedia.org/wiki/Historia_de_los_lenguajes_de_programaci%C3%B3n
+
+JavaScript
+https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Primeros pasos con JavaScript
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps
+
+Sintaxis
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Lexical_grammar
+
+Bloques
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks
+
+Variables
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables
+
+Condicionales
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals
+
+Array
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array

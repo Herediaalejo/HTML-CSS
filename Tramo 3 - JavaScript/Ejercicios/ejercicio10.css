@@ -1,0 +1,13 @@
+/* Establecer ancho, alto y un borde a la caja (la caja debe ser un cuadrado)
+Crear una clase llamada seleccionado y establecer un color de fondo y border-radius que permita hacer un círculo (Ej: 50%)*/
+
+#caja{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.seleccionado{
+    background-color: red;
+    border-radius: 50%;
+}

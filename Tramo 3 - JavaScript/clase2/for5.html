@@ -1,0 +1,18 @@
+<script>
+    // Mundiales. Desde 1930 a 2022, subiendo de 4 en 4
+    // En los años 1942 y 1946 no se disputaron mundiales, no se deben mostrar esos años en el bucle    
+
+    var i = 1930;
+    var fin = 2022;
+
+    var contador = 0;
+    
+    for(i;i<=fin;i+=4){
+        if(i != 1942 && i!= 1946){
+            console.log(i);
+            contador++
+        }        
+    }
+
+    console.log("Mundiales disputados: "+contador)
+</script>

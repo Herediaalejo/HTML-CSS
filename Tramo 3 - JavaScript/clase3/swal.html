@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swal</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .swal-button{
+            background-color: darkgreen;
+        }
+
+        .swal-button:hover{
+            background-color: orange !important;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>Nombre</label>
+        <input type="text" id="nombre">
+        <input type="button" value="Escribir" onclick="escribir()">
+    </form>
+<script>
+function escribir(){
+    // Obtenemos lo que escribe el usuario en el campo de texto
+    var nombre = document.getElementById("nombre").value;
+
+    // Mostramos en una ventana emergente con swal
+    swal("El nombre es " + nombre.toUpperCase());
+}    
+</script>
+</body>
+</html>

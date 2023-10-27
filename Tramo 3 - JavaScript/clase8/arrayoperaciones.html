@@ -1,0 +1,25 @@
+<script>
+    const nombres = ["Dami","Ale","María","Vero","Ana","Pepe","Lidia"];
+    
+    // Modificar el primer nombres
+    nombres[0] = "Damián"     
+
+    // Borrar al final
+    nombres.pop()       
+
+    // Agregar al final
+    nombres.push("Pedro")        
+
+    // Buscamos la posición de un nombre
+    const buscar = nombres.indexOf("Vero");   
+    console.log(buscar) 
+    nombres[buscar] = "Verónica"
+
+
+    // El primer valor es donde nos posicionamos
+    // El segundo valor es la cantidad de elementos que borra. Si ponemos cero no borra ninguno, 
+    // Los siguientes valores que siguen son los que se agregamos (opcional)      
+    nombres.splice(2, 0, "Victoria", "Guadalupe");
+
+    console.log(nombres)
+</script>

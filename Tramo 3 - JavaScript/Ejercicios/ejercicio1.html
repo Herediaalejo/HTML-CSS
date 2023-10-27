@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    Dadas las variables nombre y apellido validar y mostrar la respuesta en consola. Las condiciones son:
+
+    Cada una de las variables debe tener 3 caracteres o más.
+
+    Si ambas variables cumplen la consigna mostrar el nombre y el apellido y un mensaje de éxito en consola.
+
+    Si una o ambas variables no cumplen con el requisito indicar en un cartel el error (y cuál es la variable que no cumple o sin son ambas) -->
+    <script>
+        let nombre = "Alejandro"
+        let apellido = "Guzman"
+    
+        if(nombre.length>=3 && apellido.length>=3){
+            console.log(`Exito! Nombre: ${nombre}, Apellido: ${apellido}`)
+        } else if (nombre.length>=3){
+            console.log(` El apellido "${apellido}" no cumple con los 3 caracteres minimos.`)
+        }else if (apellido.length>=3){
+            console.log(` El nombre "${nombre}" no cumple con los 3 caracteres minimos.`)
+        }else{
+            console.log(` El nombre "${nombre}" y el apellido "${apellido}" no cumplen con los 3 caracteres minimos.`)
+        }
+    
+    </script>
+</body>
+</html>

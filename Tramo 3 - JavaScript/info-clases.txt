@@ -1,0 +1,24 @@
+Resumen clases
+Tramo 3
+Argentina Programa
+
+Clase 1
+Introducción y línea de tiempo de los lenguajes de programación. Programas que utilizaremos en este tramo. Introducción a JavaScript y ECMAScript 2022. Sintaxis básica de JavaScript. Variables. Lógica condicional (if/else else if). Arrays.Testeando nuestras apps (introducción, usando la consola y las herramientas de desarrollador de Google Chrome)
+
+Clase 2
+Convertir un string a mayúsculas o minúsculas. Verificar si un número es divisible por otro (ejemplo: verificar si es par). Bucles. Ejemplos con while, do while y for. Recorrer un array con for of. Filtrar los valores del array con condicionales. Ordenar el contenido de un array alfabéticamente y numéricamente (de menor a mayor y de mayor a menor). Invertir el orden de los elementos de un array.
+
+Clase 3
+Funciones, qué son, cómo declararlas y cómo llamarlas. Manejo básico de DOM y eventos. Introducción al onclick. Cómo obtener datos de un formulario. Cómo escribir desde JavaScript en elementos de HTML. Trabajando con formularios. Realizar operaciones aritméticas y de validación con datos obtenidos de formularios. Testeando nuestras apps para detectar errores en la consola de Chrome.
+
+Clase 4
+ECMAScript 6. Let y Const cuándo usarlas y características principales.Template Strings para facilitar la escritura de cadenas de textos con variables. Realizar búsquedas desde un formulario sobre arrays y cadenas de textos con el método includes(). Agregar texto en el DOM con insertAdjacentHTML(). Modificar estilos de CSS desde JavaScript. Agregar o quitar clases a elementos HTML desde JavaScript utilizando classList.
+
+Clase 5
+Manejo del DOM. Seleccionar elementos con los métodos querySelector() y querySelectorAll(). Diferencias entre ambos métodos. Uso de createElement(), appendChild(),remove() y nextSibling. Uso del this. El formato JSON. Ejemplos de estructuras básicas y arrays de JSON. Cómo acceder a las propiedades de un JSON para mostrarlas en consola y dentro de elementos HTML.
+
+Clase 6
+Manejo de JSON. Uso de los métodos map(), filter() y join(). Arrow Function (funciones de flecha). Uso de fetch para consultar web services y APIs.
+
+Clase 7
+Repaso de temas vistos a lo largo de este tramo: versiones de ECMAScript, sintaxis básica de JavScript, tipos de variables y tipos de datos, bucles, DOM, JSON y Fetch .Operador condicional ternario. Switch / Case (explicación y comparación con if/else if /else). Explicación y ejemplos de forEach(),

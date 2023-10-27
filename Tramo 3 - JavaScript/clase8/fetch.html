@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+</head>
+<body>
+    <div id="contenedor"></div>
+    <div id="error"></div>    
+
+    <script>
+        // Foreach https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+        // Los comentarios del post 2 de https://jsonplaceholder.typicode.com/comments
+        
+        fetch('https://jsonplaceholder.typicode.com/comments')
+        .then(response => response.json())
+        .then(comentarios => {
+            comentarios.filter(comentario => comentario.postId === 2).forEach(comentario =>{
+                document.getElementById("contenedor").insertAdjacentHTML("beforeend",`            
+                <p>Usuario: ${comentario.name}</p>
+                <p>${comentario.body}</p><hr>
+            
+            `)
+
+            })
+
+        })
+            .catch(error => {
+            document.getElementById("error").innerHTML = 'Error grave: '+ error;
+        });
+
+
+    </script>
+</body>
+</html>
